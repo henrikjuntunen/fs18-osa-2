@@ -1,7 +1,7 @@
 import React from 'react'
 // Osa 2 tehtävä 2.1 ja 2.2 ja 2.3 tiedostot
-import Kurssi from './Kurssi.21.2'
-//import Kurssi from './components/Kurssi.22.2'
+// import Kurssi from './Kurssi.21.2'
+import Kurssi from './Kurssi.22.2'
 //import Kurssi from './components/Kurssi.23.2'
 
 const App21 = () => {
@@ -17,6 +17,11 @@ const App21 = () => {
           nimi: 'Tiedonvälitys propseilla',
           tehtavia: 7,
           id: 2
+        },
+        {
+          nimi: 'Komponenttien luokka',
+          tehtavia: 14,
+          id: 6
         },
         {
           nimi: 'Komponenttien tila',
