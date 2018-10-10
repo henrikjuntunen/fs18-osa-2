@@ -1,8 +1,8 @@
 import React from 'react'
 // Osa 2 tehtävä 2.1 ja 2.2 ja 2.3 tiedostot
 // import Kurssi from './Kurssi.21.2'
-import Kurssi from './Kurssi.22.2'
-//import Kurssi from './components/Kurssi.23.2'
+// import Kurssi from './Kurssi.22.2'
+import Kurssi from './Kurssi.23.2'
 
 const App21 = () => {
     const kurssi = {
