@@ -1,6 +1,7 @@
 import React from 'react'
 import Kurssi from './Kurssi24'
 // Osa2 tehtävä 2.4
+// Osa2 tehtävä 2.5
 const App24 = () => {
 
   

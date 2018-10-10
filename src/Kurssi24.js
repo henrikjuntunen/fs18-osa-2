@@ -1,5 +1,6 @@
 import React from 'react'
 // Osa2 tehtävä 2.4
+// Osa2 tehtävä 2.5
 const Kurssi = ({ kurssiTa }) => {
     console.log('Kurssi24')
     console.log(kurssiTa)
