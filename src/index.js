@@ -22,7 +22,7 @@ import App from './Puhelinluettelo.2.18'
 // Osa2 tehtävä 2.17 Puhelinluettelo.2.17.js
 // Osa2 tehtävä 2.17 components/Clock.js
 // Osa2 tehtävä 2.17 components/NoteC.js
-// Osa2 tehtävä 2.17 Puhelinluettelo.2.18.js
+// Osa2 tehtävä 2.18 Puhelinluettelo.2.18.js
 ReactDOM.render(
     <App />,
     document.getElementById('root')

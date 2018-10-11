@@ -337,16 +337,6 @@ return(taulu2)
 } // end component App
 
 
-/*
-TODO miksi iid ei välity poistaTämäNimi tiedosta takaisin päin
-<NäytäPuhelinluetteloTaulukossa 
-puhlu = {this.rajauksenFilter()} // this.state.persons
-puhluIdMax = {this.state.personIdMax} 
-// TODO miksi alla oleva tapa välittää iid toimii ?
-poistaTämäNimi = {this.handleOnClickPoista.bind(this, iid)}
-/>
-*/
-
 // Puhelinluettelon näyttämäinen 
 const NäytäPuhelinluettelo = (props) => { 
 console.log('NäytäPuhelinluettelo', props)
@@ -357,13 +347,7 @@ return(<div>
     </div>)}
 
 const Rajaa = (props) =>{
-/*
-<div>
-    rajaa näytettäviä nimiä:<input value={this.state.newFilter} 
-    onChange={this.handleFilterChange}/>
-    </div>
- 
-*/
+
 
     return(
         <div>
@@ -397,18 +381,9 @@ const NäytäPuhelinluetteloTaulukossa = (props) => {
     )
 }
 
-// <button onClick={ptn(8)} personid = {p.id}>poista</button>
-
 
 const Nimi = (props) => {
-/*
-<form onSubmit={this.addNameNumber}>
-    <div>
-    nimi:<input value={this.state.newName} 
-    onChange={this.handleNameChange}/>
-    </div>
 
-*/
 return(
     <div>
     nimi:<input value={props.v} 
@@ -420,14 +395,7 @@ return(
 }
 
 const Numero = (props) => {
-    /*
 
-    <div>
-    number:<input value={this.state.newNumber} 
-    onChange={this.handleNumberChange}/>
-    </div>
-
-    */
     return(
 
     <div>
@@ -444,18 +412,3 @@ const Numero = (props) => {
 
 
 export default App
-/*
- npm install axios --save
-  npm install ajv --save
-
-
-  import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './Puhelinluettelo';
-import './index.css';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-
-*/
