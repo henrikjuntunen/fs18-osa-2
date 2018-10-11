@@ -1,6 +1,6 @@
 import React from 'react'
 // import axios from 'axios'  siirretty ./services/rekisteri.js tiedostoon
-import personsService from './services/rekisteri' 
+import personsService from './services/rekisteri.2.16' 
 
 // Osa 2 tehtävä 
 // 2.14 - 2.19
