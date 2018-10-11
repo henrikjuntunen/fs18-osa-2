@@ -1,9 +1,9 @@
 import React from 'react'
 // import axios from 'axios'  siirretty ./services/rekisteri.js tiedostoon
-import personsService from './services/rekisteri' 
-import Notification from './components/Notification'
+import personsService from './services/rekisteri.2.16' 
+//import Notification from './components/Notification'
 import NoteC from './components/NoteC'
-import NoteC1 from './components/NoteC1'
+//import NoteC1 from './components/NoteC1'
 //import './components/notification.css'
 import Clock from './components/Clock'
 
