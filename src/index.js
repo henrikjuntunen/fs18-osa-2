@@ -20,6 +20,8 @@ import App from './Puhelinluettelo.2.17'
 // Osa2 tehtävä 2.16 Puhelinluettelo.2.16.js
 // Osa2 tehtävä 2.16 services/rekisteri.2.16.js
 // Osa2 tehtävä 2.17 Puhelinluettelo.2.17.js
+// Osa2 tehtävä 2.17 components/Clock.js
+// Osa2 tehtävä 2.17 components/NoteC.js
 ReactDOM.render(
     <App />,
     document.getElementById('root')
