@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './Puhelinluettelo.2.18'
+import App from './Puhelinluettelo.2.19'
 // Osa2 tehtävä 2.1 App21.js components/Kurssi.21.2.js
 // Osa2 tehtävä 2.2 App21.js components/Kurssi.22.2.js
 // Osa2 tehtävä 2.3 App21.js components/Kurssi.23.2.js
@@ -23,6 +23,7 @@ import App from './Puhelinluettelo.2.18'
 // Osa2 tehtävä 2.17 components/Clock.js
 // Osa2 tehtävä 2.17 components/NoteC.js
 // Osa2 tehtävä 2.18 Puhelinluettelo.2.18.js
+// Osa2 tehtävä 2.19 Puhelinluettelo.2.19.js
 ReactDOM.render(
     <App />,
     document.getElementById('root')

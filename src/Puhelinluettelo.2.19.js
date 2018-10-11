@@ -1,10 +1,6 @@
 import React from 'react'
-// import axios from 'axios'  siirretty ./services/rekisteri.js tiedostoon
-import personsService from './services/rekisteri' 
-import Notification from './components/Notification'
+import personsService from './services/rekisteri.2.16' 
 import NoteC from './components/NoteC'
-import NoteC1 from './components/NoteC1'
-//import './components/notification.css'
 import Clock from './components/Clock'
 
 // Osa 2 tehtävä 
@@ -36,7 +32,23 @@ Toteuta osan 2 esimerkin parempi virheilmoitus tyyliin ruudulla muutaman sekunni
 
 2.19* puhelinluettelo osa 12
 Jos poistat jonkun henkilön toisesta selaimesta hieman ennen kun yrität muuttaa henkilön numeroa toisesta selaimesta, tapahtuu virhetilanne:
-- tämä toimii jo tehtävän 2.17 ratkaisun yhteydessä, nyt ei tullut muutoksia
+
+TODO
+:3001/persons/5:1 DELETE http://localhost:3001/persons/5 404 (Not Found)
+Puhelinluettelo.2.19.js:235 remove error Error: Request failed with status code 404
+    at createError (createError.js:17)
+    at settle (settle.js:19)
+    at XMLHttpRequest.handleLoad (xhr.js:78)
+
+TODO
+
+:3001/persons/8:1 DELETE http://localhost:3001/persons/8 404 (Not Found)
+Puhelinluettelo.2.19.js:288 render Puhelinluettelo
+
+Puhelinluettelo.2.19.js:106 remove error Error: Request failed with status code 404
+    at createError (createError.js:17)
+    at settle (settle.js:19)
+    at XMLHttpRequest.handleLoad (xhr.js:78)
 
 */
 class App extends React.Component {
