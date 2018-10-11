@@ -23,6 +23,8 @@ import axios from 'axios'
 // Talleta sovelluksen alkutila projektin juureen sijoitettavaan tiedostoon db.json:
 // Muuta sovellusta siten, että datan alkutila haetaan axios-kirjaston avulla palvelimelta. Hoida datan hakeminen lifecyclemetodissa componentDidMount.
 // npx json-server --port=3001 --watch db.json
+// npm install axios --save
+// npm install ajv --save
 
 // 30.9.2018 HJ
 
