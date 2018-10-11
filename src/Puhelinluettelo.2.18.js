@@ -1,10 +1,6 @@
 import React from 'react'
-// import axios from 'axios'  siirretty ./services/rekisteri.js tiedostoon
-import personsService from './services/rekisteri' 
-import Notification from './components/Notification'
+import personsService from './services/rekisteri.2.16' 
 import NoteC from './components/NoteC'
-import NoteC1 from './components/NoteC1'
-//import './components/notification.css'
 import Clock from './components/Clock'
 
 // Osa 2 tehtävä 
@@ -195,7 +191,6 @@ console.log('taulu2 001', taulu2)
 return(taulu2)
 }
 
-// TODO miten välitetään arvo tähän poistoon valitusta rivistä
       handleOnClickPoista = (arvoP) => {
           // debugger
           let arvo = arvoP
@@ -259,7 +254,6 @@ return(taulu2)
         render(){
             console.log('render Puhelinluettelo')
        let iid = 18
-// TODO miksi formin sisässä onClick ei toiminut counterissa ?
         return ( // return of render of App
            <div>
                                 
@@ -310,16 +304,6 @@ return(taulu2)
 } // end component App
 
 
-/*
-TODO miksi iid ei välity poistaTämäNimi tiedosta takaisin päin
-<NäytäPuhelinluetteloTaulukossa 
-puhlu = {this.rajauksenFilter()} // this.state.persons
-puhluIdMax = {this.state.personIdMax} 
-// TODO miksi alla oleva tapa välittää iid toimii ?
-poistaTämäNimi = {this.handleOnClickPoista.bind(this, iid)}
-/>
-*/
-
 // Puhelinluettelon näyttämäinen 
 const NäytäPuhelinluettelo = (props) => { 
 console.log('NäytäPuhelinluettelo', props)
@@ -330,13 +314,7 @@ return(<div>
     </div>)}
 
 const Rajaa = (props) =>{
-/*
-<div>
-    rajaa näytettäviä nimiä:<input value={this.state.newFilter} 
-    onChange={this.handleFilterChange}/>
-    </div>
- 
-*/
+
 
     return(
         <div>
@@ -350,7 +328,7 @@ const Rajaa = (props) =>{
 const NäytäPuhelinluetteloTaulukossa = (props) => {
     console.log('NäytäPuhelinluetteloTaulukossa', props)
 
-    return( // TODO miten täältä saa välitettyä id arvon poistotoiminnolle
+    return( 
         <table>
             <thead>
 
@@ -370,18 +348,10 @@ const NäytäPuhelinluetteloTaulukossa = (props) => {
     )
 }
 
-// <button onClick={ptn(8)} personid = {p.id}>poista</button>
 
 
 const Nimi = (props) => {
-/*
-<form onSubmit={this.addNameNumber}>
-    <div>
-    nimi:<input value={this.state.newName} 
-    onChange={this.handleNameChange}/>
-    </div>
 
-*/
 return(
     <div>
     nimi:<input value={props.v} 
@@ -393,14 +363,7 @@ return(
 }
 
 const Numero = (props) => {
-    /*
 
-    <div>
-    number:<input value={this.state.newNumber} 
-    onChange={this.handleNumberChange}/>
-    </div>
-
-    */
     return(
 
     <div>
@@ -417,18 +380,3 @@ const Numero = (props) => {
 
 
 export default App
-/*
- npm install axios --save
-  npm install ajv --save
-
-
-  import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './Puhelinluettelo';
-import './index.css';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-
-*/
